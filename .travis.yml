@@ -1,0 +1,14 @@
+language: php
+php:
+  - '7.2'
+
+cache:
+  directories:
+    - vendor
+
+install:
+  - composer self-update
+  - composer install --prefer-dist
+
+script:
+  - ./vendor/bin/phpunit --columns 80 --verbose
