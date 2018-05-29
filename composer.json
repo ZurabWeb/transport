@@ -1,0 +1,22 @@
+{
+    "name": "zurabweb/transport",
+    "description": "Sample Transport App",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zurab Shubitidze",
+            "email": "zurab.web@protonmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "~6.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZurabWeb\\Transport\\": "./src",
+            "ZurabWeb\\Transport\\Test\\": "./test"
+        }
+    }
+}
